@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(27, 27, 27);
+    margin : 0px;
+    padding : 0px;
+}
+.nav-bar{
+    display : flex;
+    margin-left: 150px; 
+}
+.icon{
+    display : flex;
+    margin : 6px;
+}
+.icon img{
+    margin : 13px;
+}
+.icon h2{
+    color : white;
+    font-size: large;
+    font-weight: normal;
+}
+.nav-items ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width : 100%;
+}
+.nav-items ul li{
+    margin : 6px;
+}
+.nav-items ul li a{
+    text-decoration: none;
+    color : rgb(172, 167, 167);
+    font-size: medium;
+}
+.search{
+    padding : 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width : 60%;
+}
+.version p{
+    color : rgb(195, 187, 187);
+    font-weight: lighter;
+    
+}
+.version{
+    display: flex;
+    justify-content: center;
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    padding : 50px;
+}
+.home-side{
+    margin : 50px;
+}
+.home-side span{
+    color: rgb(173, 172, 172);
+    border: solid 1px rgb(165, 163, 163);
+    border-radius: 5px;
+}
+.home-side h1{
+    color:white;
+}
+.home-side button{
+    height : 40px;
+    width : 180px;
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(69, 69, 208);
+}
